@@ -1,140 +1,149 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Đặt Tour du lịch</title>
-    <link rel="icon" type="image/png" href="img/lhu.jpg">
-    <link rel="stylesheet" href="index.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-</head>
-<body>
-<header class="header">
-    <div class="container header-content">
+    <link rel="icon" type="image/png" href="img/lhu.jpg" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-content">
         <nav class="menu animate__animated animate__flash">
-            <a href="#home">Trang chủ</a>
-            <a href="#tour-trong-nuoc">Tour trong nước</a>
-            <a href="#tour-nuoc-ngoai">Tour nước ngoài</a>
-            <a href="#cam-nang">Cẩm nang</a>
-            <a href="#booking">Đặt tour</a>
-            <label><input id="lightmode" type="radio" name="color" checked>Lightmode</label>
-            <label><input id="darkmode" type="radio" name="color">Darkmode</label>
-
+          <a href="#home">Trang chủ</a>
+          <a href="#tour-trong-nuoc">Tour trong nước</a>
+          <a href="#tour-nuoc-ngoai">Tour nước ngoài</a>
+          <a href="#cam-nang">Cẩm nang</a>
+          <a href="#booking">Đặt tour</a>
+          <label
+            ><input
+              id="lightmode"
+              type="radio"
+              name="color"
+              checked
+            />Lightmode</label
+          >
+          <label
+            ><input id="darkmode" type="radio" name="color" />Darkmode</label
+          >
         </nav>
-    </div>
-</header>
-<section class="main">
-    <div class="animate__animated animate__swing">
+      </div>
+    </header>
+    <section class="main">
+      <div class="animate__animated animate__swing">
         <h1>Khám phá thế giới ngay</h1>
         <p>VitTravel</p>
         <a href="#booking" class="btn">Khám phá ngay</a>
-    </div>
-</section>
-<section id="tour-trong-nuoc">
-    <h2 class="animate__animated animate__headShake">Tour du lịch nổi bật</h2>
+      </div>
+    </section>
+    <section id="tour-trong-nuoc">
+      <h2 class="animate__animated animate__headShake">Tour du lịch nổi bật</h2>
 
-    <div class="grid animate__animated animate__headShake" >
+      <div class="grid animate__animated animate__headShake">
         <article>
-            <img src="img/hoian.jpg" alt="Đà Nẵng">
-            <h3>Đà Nẵng - Hội An</h3>
-            <p>4 ngày 3 đêm · 4.990.000đ</p>
+          <img src="img/hoian.jpg" alt="Đà Nẵng" />
+          <h3>Đà Nẵng - Hội An</h3>
+          <p>4 ngày 3 đêm · 4.990.000đ</p>
         </article>
 
         <article>
-            <img src="img/phuquoc.jpg" alt="Phú Quốc">
-            <h3> Phú Quốc</h3>
-            <p>3 ngày 2 đêm · 3.590.000đ</p>
+          <img src="img/phuquoc.jpg" alt="Phú Quốc" />
+          <h3>Phú Quốc</h3>
+          <p>3 ngày 2 đêm · 3.590.000đ</p>
         </article>
 
         <article>
-            <img src="img/sapa.jpg" alt="Sapa">
-            <h3>Sapa </h3>
-            <p>2 ngày 1 đêm · 1.320.000đ</p>
+          <img src="img/sapa.jpg" alt="Sapa" />
+          <h3>Sapa</h3>
+          <p>2 ngày 1 đêm · 1.320.000đ</p>
         </article>
 
         <article>
-            <img src="img/nhatrang.jpg" alt="Nha Trang">
-            <h3>Nha Trang</h3>
-            <p>3 ngày 2 đêm · 2.490.000đ</p>
+          <img src="img/nhatrang.jpg" alt="Nha Trang" />
+          <h3>Nha Trang</h3>
+          <p>3 ngày 2 đêm · 2.490.000đ</p>
         </article>
 
         <article>
-            <img src="img/bangkok.jpg" alt="Thái Lan">
-            <h3>Bangkok - Pattaya</h3>
-            <p>4 ngày 3 đêm · 9.990.000đ</p>
+          <img src="img/bangkok.jpg" alt="Thái Lan" />
+          <h3>Bangkok - Pattaya</h3>
+          <p>4 ngày 3 đêm · 9.990.000đ</p>
         </article>
 
         <article>
-            <img src="img/tokyo.jpg" alt="Nhật Bản">
-            <h3>Tokyo </h3>
-            <p>7 ngày 6 đêm · 30.900.000đ</p>
+          <img src="img/tokyo.jpg" alt="Nhật Bản" />
+          <h3>Tokyo</h3>
+          <p>7 ngày 6 đêm · 30.900.000đ</p>
         </article>
+      </div>
+    </section>
+    <section id="booking" class="animate__animated animate__bounce">
+      <h2>Đặt tour</h2>
 
-    </div>
-</section>
-<section id="booking" class="animate__animated animate__bounce">
-    <h2>Đặt tour</h2>
+      <form class="form">
+        <div>
+          <label>Họ và tên</label>
+          <input type="text" placeholder="Họ và tên" required /><br />
+        </div>
+        <div>
+          <label>Email</label>
+          <input type="email" placeholder="Email" required /><br />
+        </div>
+        <div>
+          <label>Số điện thoại</label>
+          <input type="tel" placeholder="Điện thoại" required /><br />
+        </div>
+        <div>
+          <label>Ngày khởi hành</label>
+          <input type="date" required /><br />
+        </div>
+        <div>
+          <label>Số khách</label>
+          <input type="number" /><br />
+        </div>
+        <div>
+          <label>Chọn tour</label>
+          <select>
+            <option>--------</option>
+            <option>Đà Nẵng - Hội An</option>
+            <option>Phú Quốc</option>
+            <option>Sapa</option>
+            <option>Nha Trang</option>
+            <option>Bangkok - Pattaya</option>
+            <option>Tokyo</option>
+          </select>
+        </div>
+        <div>
+          <p>Loại phòng:</p>
+          <br />
+          <label><input type="radio" name="room" /> Phòng đơn</label>
+          <label><input type="radio" name="room" /> Phòng đôi</label>
+          <label><input type="radio" name="room" /> Phòng gia đình</label>
+        </div>
+        <div>
+          <p>Dịch vụ thêm:</p>
+          <label><input type="checkbox" /> Đón sân bay</label>
+          <label><input type="checkbox" /> Ăn uống</label>
+          <label><input type="checkbox" /> Hướng dẫn viên</label><br />
+        </div>
+        <div>
+          <label>Yêu cầu đặc biệt</label><br />
+          <textarea placeholder="nhập yêu cầu nếu có"></textarea><br />
+        </div>
+        <div>
+          <button type="submit">Đặt tour</button>
+          <button type="reset">Hủy</button>
+        </div>
+      </form>
+    </section>
 
-    <form class="form">
-        <div>
-            <label>Họ và tên</label>
-            <input type="text" placeholder="Họ và tên" required><br>
-        </div>
-        <div>
-            <label>Email</label>
-            <input type="email" placeholder="Email" required><br>
-        </div>
-        <div>
-            <label>Số điện thoại</label>
-            <input type="tel" placeholder="Điện thoại" required><br>
-        </div>
-        <div>
-            <label>Ngày khởi hành</label>
-            <input type="date" required><br>
-        </div>
-        <div>
-            <label>Số khách</label>
-            <input type="number"><br>
-        </div>
-        <div>
-            <label>Chọn tour</label>
-            <select>   
-                <option>--------</option> 
-                <option>Đà Nẵng - Hội An</option>
-                <option>Phú Quốc</option>
-                <option>Sapa</option>
-                <option>Nha Trang</option>
-                <option>Bangkok - Pattaya</option>
-                <option>Tokyo </option>
-            </select>
-        </div>
-        <div>
-        <p>Loại phòng:</p><br>
-        <label><input type="radio" name="room"> Phòng đơn</label>
-        <label><input type="radio" name="room"> Phòng đôi</label>
-        <label><input type="radio" name="room"> Phòng gia đình</label>
-        </div>
-        <div>
-        <p>Dịch vụ thêm:</p>
-        <label><input type="checkbox"> Đón sân bay</label>
-        <label><input type="checkbox"> Ăn uống</label>
-        <label><input type="checkbox"> Hướng dẫn viên</label><br>
-        </div>
-        <div>
-        <label>Yêu cầu đặc biệt</label><br>
-        <textarea placeholder="nhập yêu cầu nếu có"></textarea><br>
-        </div>
-        <div>
-        <button type="submit">Đặt tour</button>
-        <button type="reset">Hủy</button>
-        </div>
-    </form>
-</section>
-
-
-<footer>
-    <p> 123 Cách Mạng Tháng Tám, TP Đồng Nai · 1011 0100</p>
-    <p>Facebook · Instagram · Youtube</p>
-    <p>@ 2026 VitTravel</p>
-</footer>
-
-</body>
+    <footer>
+      <p>123 Cách Mạng Tháng Tám, TP Đồng Nai · 1011 0100</p>
+      <p>Facebook · Instagram · Youtube</p>
+      <p>@ 2026 VitTravel</p>
+    </footer>
+  </body>
 </html>
